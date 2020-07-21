@@ -16,3 +16,6 @@
   - [:us:, :uk:](/)
 
 - [:cn:](/zh-cn/)
+
+* [En](/)
+* [chinese](/zh-cn/)
