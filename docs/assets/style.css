@@ -7,6 +7,10 @@
   margin-right: 50px;
 }
 
+.app-nav > ul > li > p > a {
+  color: white;
+}
+
 #töltsd-le-a-cmo-számlázóját-ingyenesen > a {
   color: plum;
   background-color: aliceblue;
@@ -17,5 +21,5 @@
 }
 
 #töltsd-le-a-cmo-számlázóját-ingyenesen > a > span {
-text-align: center;
+  text-align: center;
 }
