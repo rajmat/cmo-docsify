@@ -1,14 +1,12 @@
 - Dokumentáció
 
   - [Főoldal](README.md)
-  - [Guide](guide.md)
 
 * Szolgáltatásaink
-
-  - [Számlázó applikáció](bob.md)
-  - [Bankkártya-leolvasó]()
-  - [CMO - Company]()
-  - [Online pénztárgép]()
+  * [Számlázó applikáció](guide.md)
+  * [Bankkártya-leolvasó](bob.md)
+  * [CMO - Company](guide.md)
+  * [Online pénztárgép](guide.md)
 
 * [:cn:](/zh-cn/)
 * [:us:, :uk:](/en/)

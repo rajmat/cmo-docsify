@@ -1,3 +1,9 @@
-# Sziasztok
+# Szolgáltatásaink
 
-## itt egy bekezdés
+## számlázó applikáció
+
+## bankkártya-leolvasó
+
+## CMO-Company
+
+## online pénztárgép
