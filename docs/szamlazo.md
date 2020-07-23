@@ -25,7 +25,7 @@ A kijelzője nagyméretű és színes, hogy minden helyzetben megfelelően olvas
 
 A gyártó nagy hangsúlyt fektetett a teljesítményre. Fejlett DDR technológiát alkalmazott, ARM11 32 bites processzor használata mellett, ami biztosítja a Linux operáció rendszernek a kellő teljesítményt, és stabilitást, hogy a bankkártyás fizettetés zökkenőmentesen, és gyorsan végrehajtásra kerüljön.
 
-<img style="float: left;" src="_media/app-store.png">
+<img style="float: left;" src="_media/app-store.png" alt="cmo-kep">
 
 A gyártó nagy hangsúlyt fektetett a teljesítményre. Fejlett DDR technológiát alkalmazott, ARM11 32 bites processzor használata mellett, ami biztosítja a Linux operáció rendszernek a kellő teljesítményt, és stabilitást, hogy a bankkártyás fizettetés zökkenőmentesen, és gyorsan végrehajtásra kerüljön.
 
