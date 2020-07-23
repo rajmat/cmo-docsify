@@ -3,7 +3,7 @@
   - [Főoldal](README.md)
 
 * Szolgáltatásaink
-  * [Számlázó applikáció](guide.md)
+  * [Számlázó applikáció](szamlazo.md)
   * [Bankkártya-leolvasó](bob.md)
-  * [CMO - Company](guide.md)
-  * [Online pénztárgép](guide.md)
+  * [CMO - Company](szamlazo.md)
+  * [Online pénztárgép](szamlazo.md)

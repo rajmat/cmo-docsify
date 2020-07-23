@@ -1,0 +1,21 @@
+#main > div > p {
+  float: left !important;
+}
+
+#main > p > a > img {
+  width: 300px;
+  margin-right: 50px;
+}
+
+#töltsd-le-a-cmo-számlázóját-ingyenesen > a {
+  color: plum;
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#töltsd-le-a-cmo-számlázóját-ingyenesen > a > span {
+text-align: center;
+}

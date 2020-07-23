@@ -1,5 +1,5 @@
 * [Főoldal](README.md)
-* [Szolgáltatásaink](guide.md)
+* [Szolgáltatásaink](szamlazo.md)
 * [Marleyz](bob.md "The greatest guide in the world")
 * [Példák](ziggy.md "The greatest guide in the world")
 
