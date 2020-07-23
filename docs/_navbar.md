@@ -7,3 +7,5 @@
   * [Bankkártya-leolvasó](bob.md)
   * [CMO - Company](szamlazo.md)
   * [Online pénztárgép](szamlazo.md)
+
+* [Partnereink](partner.md)
