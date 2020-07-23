@@ -1,16 +1,21 @@
-![logo](_media/ford.svg)
+![logo](_media/cmo.png)
 
-# docsify <small>3.5</small>
+# Üzleted a zsebedben!
 
-> A magical documentation site generator.
+> Felhőalapú kereskedelmi rendszer
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- felsorolás 1
+- felsorolás 2
+- felsorolás 3
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Tovább a dokumentációra](#cmo-headline)
+[CMO webalkalmazás](https://app.cmo.hu)
+[CMO weboldal](https://cmoproject.web.app)
 
 <!-- background image -->
 
 <!-- ![background](_media/background.jpg) -->
+
+<!-- background color -->
+
+![color](#ffffff)
