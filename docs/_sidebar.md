@@ -1,7 +1,7 @@
 * [Főoldal](README.md)
-* [Szolgáltatásaink](guide.md "The greatest guide in the world")
- - [sziasztok](bob.md)
+* [Szolgáltatásaink](guide.md)
 * [Marleyz](bob.md "The greatest guide in the world")
+* [Példák](ziggy.md "The greatest guide in the world")
 
 
 <!-- * [Home](/)

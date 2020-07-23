@@ -7,6 +7,3 @@
   * [Bankkártya-leolvasó](bob.md)
   * [CMO - Company](guide.md)
   * [Online pénztárgép](guide.md)
-
-* [:cn:](/zh-cn/)
-* [:us:, :uk:](/en/)
