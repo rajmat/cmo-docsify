@@ -1,6 +1,10 @@
 # CMO headline
 
-[video](https://www.youtube.com/watch?v=nxdIJbdjSII)
+<iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=nxdIJbdjSII" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ![logo](_media/desktop1.png)
 
