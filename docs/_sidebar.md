@@ -1,5 +1,5 @@
 * [FÅ‘oldal](README.md)
-* [CMO - Company mobilapplikáció](cmo-company-mobilapplication.md "CMO - Company mobilapplikáció")
+* [CMO - Company mobilapp](cmo-company-mobilapplication.md "CMO - Company mobilapp")
 * [Ez egy link](ziggy.md "Ziggy markdown")
 * [SzolgÃ¡ltatÃ¡saink](szamlazo.md)
 * [Partnereink](partner.md)
