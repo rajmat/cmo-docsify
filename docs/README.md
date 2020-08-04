@@ -1,5 +1,7 @@
 # CMO headline
 
+[video](https://www.youtube.com/watch?v=nxdIJbdjSII)
+
 ![logo](_media/desktop1.png)
 
 A CMO megoldásai felhőalapú rendszerek, átlátható, moduláris szolgáltatás-csomagokkal. Akár egyszerű vagy speciális online számlázásról, cikkelemes készletkezelésről, pénztárgép üzemeltetésről, esetleg bankkártya-elfogadásról, webáruház működtetésről van szó. Szakembereink több évtizedes tapasztalattal rendelkeznek arról, hogy a kereskedők és szolgáltatók milyen megoldásokat szeretnének használni valójában. Az igények megismerése és az innovatív szaktudás teremtette meg a CMO gondolkodást.
