@@ -1,4 +1,5 @@
 * [Főoldal](README.md)
+* [Ez egy link](ziggy.md "Ziggy markdown")
 * [Szolgáltatásaink](szamlazo.md)
 * [Partnereink](partner.md)
 * [Marleyz](bob.md "The greatest guide in the world")
