@@ -1,5 +1,5 @@
 * [Főoldal](README.md)
-* [CMO - Company mobilapp](cmo-mobilapp.md "CMO - Company mobilapp")
+* [CMO - Company mobilapp](cmo-mobilapp/cmo-mobilapp.md "CMO - Company mobilapp")
  * [Regisztráció](cmo-mobilapp/cmo-mobilapp-regisztracio.md)
  * [Bejelentkezés](cmo-mobilapp/cmo-mobilapp-bejelentkezes.md)
  * [NAV technikai felhasználó](cmo-mobilapp/cmo-mobilapp-nav-tech-felh.md)
