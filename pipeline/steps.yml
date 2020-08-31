@@ -1,0 +1,146 @@
+parameters:
+# Name of web UI's Docker image.
+- name: imageName
+  type: string
+  
+# Name of the web application
+- name: appName
+  type: string
+
+# Tag built Docker images with this.
+- name: tag
+  type: string
+
+# Domain to expose web app on.
+# i.e: for `cmo.hu` -> ...app.cmo.hu will be created.
+- name: domain
+  type: object
+
+# List of environments. Each environment has to be in form of:
+# - name: <Name deployment's stage in Azure DevOps Pipeline>
+#          Valid names may only contain alphanumeric characters and '_' and may not start with a number.
+#   kubernetes: <Name of Azure Kubernetes service's service connection in Azure DevOps>
+#   containerRegistry: <Name of Container Registry's service connection in Azure DevOps>
+#   dnsPrefix: <DNS prefix to prepend in front of `app.domain`>
+#               [optional: defaults to empty string]
+#               i.e: `staging-` prefix with `cmo.hu` domain results in `app.cmo.hu`.
+#   productionGrade: <Is environment production grade or not>
+#                    [optional: defaults to false]
+#                    Only tagged builds will be deployed to production grade environments.
+#   replicaCount: <number of pods to deploy>
+#                 [optional: defaults to 1]
+#   apiURL: URL of API.
+- name: environments
+  type: object
+
+stages:
+- stage: Build
+  jobs:
+  - job: Build
+    steps:
+    # Build and push Docker image to environment's Azure Container Registry where:
+    # - It's a master branch push and the environment IS NOT production grade (=staging).
+    # - It's a tag push having the desired prefix and the environment IS production grade.
+    # Build web app's Docker image.
+    - ${{ each env in parameters.environments }}:
+      # Build web app's Docker image.
+      - task: Docker@2
+        displayName: Build Docker image for ${{ env.containerRegistry }}
+        condition: and(succeeded(), ${{ xor(env.productionGrade, startsWith(variables['Build.SourceBranch'], 'refs/heads/')) }})
+        inputs:
+          command: build
+          containerRegistry: ${{ env.containerRegistry }}
+          repository: ${{ parameters.imageName }}
+          tags: ${{ parameters.tag }}
+          arguments: --build-arg COOKIE_DOMAIN=${{ env.cookieDomain }}
+
+      # Login Docker to Container Registry of environment.
+      - task: Docker@2
+        displayName: Login to ${{ env.containerRegistry }}
+        condition: and(succeeded(), ${{ xor(env.productionGrade, startsWith(variables['Build.SourceBranch'], 'refs/heads/')) }})
+        inputs:
+          command: login
+          containerRegistry: ${{ env.containerRegistry }}
+
+      # Push build image to Container Registry of environment.
+      - bash: |
+          docker tag ${{ parameters.imageName }}:${{ parameters.tag }} ${{ env.containerRegistry }}.azurecr.io/${{ parameters.imageName }}:${{ parameters.tag }}
+          docker push ${{ env.containerRegistry }}.azurecr.io/${{ parameters.imageName }}:${{ parameters.tag }}
+        displayName: Push to ${{ env.containerRegistry }}
+        condition: and(succeeded(), ${{ xor(env.productionGrade, startsWith(variables['Build.SourceBranch'], 'refs/heads/')) }})
+
+# Loop through each environment listed in parameters.
+- ${{ each env in parameters.environments }}:
+  # Deploy to given environment if:
+  # - Build stage succeeded and it's either:
+  #   - a master branch push and the environment IS NOT production grade (=staging).
+  #   - a tag push having the desired prefix and the environment IS production grade.
+  - stage: Deploy_${{ env.name }}
+    condition: and(succeeded(), ${{ xor(env.productionGrade, startsWith(variables['Build.SourceBranch'], 'refs/heads/')) }})
+    dependsOn: Build
+    displayName: Deploy ${{ env.name }}
+    jobs:
+    # Deploy web app to Kubernetes.
+    - job: Deploy_${{ parameters.appName }}_web_app
+      displayName: Deploy ${{ parameters.appName }} web app
+      steps:
+      # Helm 2 is the current default.
+      # Fixed dependency versions are also more stable than `latest`.      
+      - task: HelmInstaller@1
+        displayName: Install Helm 3.1.1
+        inputs:
+          helmVersionToInstall: 3.1.1
+
+      # Add Bitnami's Helm repository.
+      - task: HelmDeploy@0
+        displayName: Add bitnami's Helm repository
+        inputs:
+          command: repo
+          connectionType: Kubernetes Service Connection
+          kubernetesServiceEndpoint: ${{ env.kubernetes }}
+          arguments: add bitnami https://charts.bitnami.com/bitnami
+
+      # Update local cache of Helm repositories.
+      - task: HelmDeploy@0
+        displayName: Update Helm repositories
+        inputs:
+          command: repo
+          connectionType: Kubernetes Service Connection
+          kubernetesServiceEndpoint: ${{ env.kubernetes }}
+          arguments: update
+
+      # Deploy (install/upgrade) web app via NGINX Helm chart.
+      # Deploy time values file parameters must be set here (=overrideValues).
+      - task: HelmDeploy@0
+        displayName: Helm upgrade web app
+        inputs:
+          connectionType: Kubernetes Service Connection
+          kubernetesServiceEndpoint: ${{ env.kubernetes }}
+          namespace: app
+          command: upgrade
+          chartName: bitnami/nginx
+          releaseName: ${{ parameters.imageName }}
+          # --atomic: rolls back changes made in case of failed upgrade.
+          # --cleanup-on-fail: allow deletion of new resources created in this upgrade when upgrade fails.
+          # -f pipeline/server-block.yaml: custom NGINX server-block.
+          # --version 6.0.1: install chart version `6.0.1`.
+          arguments: --atomic --cleanup-on-fail -f pipeline/server-block.yaml --version 6.0.1
+          # Set config variables of web app.
+          # image: Docker image's URL.
+          # replicaCount: number of web app instances to deploy.
+          # ingress: expose web app on given domain, requesting LetsEncrypt certificate, integrating to Linkerd service mesh.
+          # service.type=ClusterIP: expose service locally (Ingress will expose it publicly).
+          overrideValues: "\
+            image.registry=${{ env.containerRegistry }}.azurecr.io,\
+            image.repository=${{ parameters.imageName }},\
+            image.tag=${{ parameters.tag }},\
+            replicaCount=${{ coalesce(env.replicaCount, 1) }},\
+            ingress.enabled=true,\
+            ingress.hostname=${{ env.dnsPrefix }}${{ parameters.appName }}.${{ parameters.domain }},\
+            ingress.tls[0].hosts[0]=${{ env.dnsPrefix }}${{ parameters.appName }}.${{ parameters.domain }},\
+            ingress.tls[0].secretName=\"${{ parameters.imageName }}-tls\",\
+            ingress.annotations.\"kubernetes\\.io/ingress\\.class\"=nginx,\
+            ingress.annotations.\"cert-manager\\.io/cluster-issuer\"=letsencrypt,\
+            ingress.annotations.\"nginx\\.ingress\\.kubernetes\\.io/configuration-snippet\"=\"proxy_set_header l5d-dst-override ${{ parameters.imageName }}-nginx.app.svc.cluster.local:80;\",\
+            service.type=ClusterIP\
+          "

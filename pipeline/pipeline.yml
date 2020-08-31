@@ -1,0 +1,59 @@
+# This pipeline can be triggered by either:
+# - Push to master branch.
+# - Push of a tag.
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+    - refs/tags/*
+
+# Triggers are set for the same repo these YAMLs are commited to.
+resources:
+- repo: self
+
+# Pipeline runs on a virtual machines running the Ubuntu 18.04.
+pool:
+  vmImage: ubuntu-18.04
+
+stages:
+# Generate pipeline using steps.yml template file.
+- template: steps.yml
+  parameters:
+    # Call web UI's Docker image `cmo24-frontend`.
+    imageName: cmo24-frontend
+    appName: docs
+    # Tag Docker images based on the current build ID of the Azure Pipeline.
+    tag: $(Build.BuildId)
+
+    # Domains to expose services on.
+    # i.e: for `cmo.hu` -> ...app.cmo.hu will be created.
+    domain: cmo.hu
+    
+    # List of environments. Each environment has to be in form of:
+    # - name: <Name deployment's stage in Azure DevOps Pipeline>
+    #          Valid names may only contain alphanumeric characters and '_' and may not start with a number.
+    #   kubernetes: <Name of Azure Kubernetes service's service connection in Azure DevOps>
+    #   containerRegistry: <Name of Container Registry's service connection in Azure DevOps>
+    #   dnsPrefix: <DNS prefix to prepend in front of `app.domain`>
+    #               [optional: defaults to empty string]
+    #               i.e: `staging-` prefix with `cmo.hu` domain results in `app.cmo.hu`.
+    #   productionGrade: <Is environment production grade or not>
+    #                    [optional: defaults to false]
+    #                    Only tagged builds will be deployed to production grade environments.
+    #   replicaCount: <number of pods to deploy>
+    #                 [optional: defaults to 1]
+    #   apiURL: URL of API.
+    environments:
+    - name: cmo_staging
+      kubernetes: cmo-staging-aks
+      containerRegistry: cmostagingcr
+      dnsPrefix: staging-
+      cookieDomain: cmo.hu
+
+    - name: cmo
+      kubernetes: cmo-aks
+      containerRegistry: cmocr
+      replicaCount: 3
+      cookieDomain: cmo.hu
+      productionGrade: true
