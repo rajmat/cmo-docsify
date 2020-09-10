@@ -1,19 +1,23 @@
-* [Főoldal](README.md)
-* [CMO - Company mobilapp]()
- * [Regisztráció](cmo-mobilapp/cmo-mobilapp-regisztracio.md)
- * [Bejelentkezés](cmo-mobilapp/cmo-mobilapp-bejelentkezes.md)
- * [NAV technikai felhasználó](cmo-mobilapp/cmo-mobilapp-nav-tech-felh.md)
- * [Beállítások](cmo-mobilapp/cmo-mobilapp-beallitasok.md)
-* [Ez egy link](ziggy.md "Ziggy markdown")
-* [Szolgáltatásaink](szamlazo.md)
-* [Partnereink](partner.md)
-* [Marleyz](bob.md "The greatest guide in the world")
- * [aloldal 1](ziggy.md)
- * [aloldal 2](bob.md)
-* [Példák](ziggy.md "The greatest guide in the world")
+* [Kezdőlap](/)
+* [Általános információk](informaciok.md)
 
+<span class="sidebar-nav-text">MOBILAPPLIKÁCIÓ</span>
+* [Információ](mobilapplikacio/mobilapp-informaciok.md)
+* [Gyakran ismételt kérdések](mobilapplikacio/mobilapp-gyik.md)
+* [Funkciólista](mobilapplikacio/mobilapp-funkciolista.md)
+* [Használati útmutató](mobilapplikacio/mobilapp-hasznalati-utmutato.md)
 
-<!-- * [Home](/)
-* [Guide](guide.md "The greatest guide in the world")
-* [Marleyz](bob.md "The greatest guide in the world")
- - [Ziggy](ziggy.md) -->
+<span class="sidebar-nav-text">WEBALKALMAZÁS</span>
+* [Információ](webalkalmazas/webapp-informaciok.md)
+* [Gyakran ismételt kérdések](webalkalmazas/webapp-gyik.md)
+* [Funkciólista](webalkalmazas/webapp-funkciolista.md)
+* [Használati útmutató](webalkalmazas/webapp-hasznalati-utmutato.md)
+
+<span class="sidebar-nav-text">BANKKÁRTYA TERMINÁ</span>
+* [Gyakran ismételt kérdések](bankkartya-terminal/bankkartya-terminal-gyik.md)
+* [Bankkártya terminál típusok](bankkartya-terminal/bankkartya-terminal-tipusok.md) 
+
+<span class="sidebar-nav-text">ONLINE PÉNZTÁRGÉP</span>
+* [Információk](online-penztargep/penztargep-informaciok.md)
+* [CMO felhő beállítása](online-penztargep/penztargep-cmo-felho.md)
+* [Pénztárgép típusok](online-penztargep/penztargep-tipusok.md)
