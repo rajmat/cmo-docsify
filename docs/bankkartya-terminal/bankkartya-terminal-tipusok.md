@@ -29,7 +29,7 @@ Certifications | PCI PTS 4.x, SRED, EMV Contact L1 & L2, EMV Contactless L1, Vis
 
 ## PAX S920 bankkártya terminál
 
-![PAX S800 mankkártya terminál](../_media/terminal/pax-s920-bankkartya-terminal.png)
+![PAX S800 mankkártya terminál](../_media/terminal/pax-S920-bankkartya-terminal.png)
 
 ### Technikai leírás
 

@@ -13,7 +13,7 @@
 * [Funkciólista](webalkalmazas/webapp-funkciolista.md)
 * [Használati útmutató](webalkalmazas/webapp-hasznalati-utmutato.md)
 
-<span class="sidebar-nav-text">BANKKÁRTYA TERMINÁ</span>
+<span class="sidebar-nav-text">BANKKÁRTYA TERMINÁL</span>
 * [Gyakran ismételt kérdések](bankkartya-terminal/bankkartya-terminal-gyik.md)
 * [Bankkártya terminál típusok](bankkartya-terminal/bankkartya-terminal-tipusok.md) 
 

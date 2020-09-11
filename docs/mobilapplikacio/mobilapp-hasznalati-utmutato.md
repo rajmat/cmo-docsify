@@ -18,17 +18,17 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 ## Bejelentkezés
 
 <!-- BEÁLLÍTÁSOK -->
-## 1. Beállítások
+## Beállítások
 
 <!-- Cég szerkesztése -->
-### 1.1. Cég szerkesztése
-Cég alapadatainak szerkesztése
+### Cég szerkesztése
+Cég alapadatainak szerkesztése</br>
 + Név
 + Hosszú név
 + Email cím
 + Könyvelő email címe
 
-#### 1.1.1. Általános adatok
+#### Általános adatok
 + Ország
 + Adószám
 + Közöségi adószám
@@ -39,17 +39,21 @@ Cég alapadatainak szerkesztése
 + Város
 + Cím
 
-#### 1.1.2. Törzsadatok
-##### 1.1.2.1. ÁFA kulcsok
+#### Törzsadatok
+
+##### ÁFA kulcsok
 Szerkeszthetjük az előre definiált ÁFA kulcsokat, vagy létre is hozhatunk újakat.
-##### 1.1.2.2. Mértékegységek
+
+##### Mértékegységek
 Szerkeszthetjük az előre definiált mértékegységeket, vagy létre is hozhatunk újakat.
-#### 1.1.3. Bankügyi adatok
+
+#### Bankügyi adatok
 + Bankszámlaszám
 + Valuta
 + IBAN
 + SWIFT
-#### 1.1.3. NAV technikai felhasználó
+
+#### NAV technikai felhasználó
 > Lehetőség van a technikai felhaszáló beállítására QR kód beolvasásával, ebben az esetben csak a jelszó mezőt kell kitöltened!
 
 <iframe class="video-container" src="https://www.youtube.com/embed/ek7ERk9cti8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -58,33 +62,39 @@ Szerkeszthetjük az előre definiált mértékegységeket, vagy létre is hozhat
 <!-- Cégeim -->
 ### Cégeim
 Lehetőséged van a CMO rendszerében egy felhasználói fiók alatt több céget is kezelni, cégenként egyedi beállításokkal, jogosultságokkal.
+
 #### Cég hozzáadása
 Add hozzá új céget a fiókodhoz pár kattintással. De akár be is töltetheted a cég adatait adószám alapján külső adatbázisból. 
 <!-- Cégeim vége -->
 
 ### Profilom
 Felhasználói fiók módosítása. Jelszó megváltoztatása
+
 ### Nyomtatók
 Párosított Bluetooth nyomtató kiválasztása.
 
 [Számlanyomtató beállításairól](/mobilapplikacio/mobilapp-gyik) itt olvashatsz bővebben.
 
 ### Számlázás beállítások
+
 #### Alapértelmezett cikk
+
 #### Alapértelmezett fizetési mód
+
 Partner automatikus mentése számlakiállításakor
 ### Nyelv
 Az applikáció nyelvének kiválasztása (magyar, angol)
 ### Felhasználók kezelése
 <!--  BEÁLLÍTÁSOK VÉGE -->
 
-## 2. Új számla kiállítása
+## Új számla kiállítása
 email, nyomtatás
 
-## 3. Számláim
-## 4. Partnerek
+## Számláim
 
-## 5. Cikktörzs
+## Partnerek
+
+## Cikktörzs
 ### Új cikk rögzítést
 
 

@@ -1,7 +1,7 @@
 # Gyakran ismételt kérdések
 
 ## Megrendelés menete
-+ Töltd ki a [CMO - Weboldalán](https://cmo.hu/bankkartya-terminalok/pax-s800-bankkartya-olvaso) a megrendelőt
++ Töltsd ki a [CMO - Weboldalán](https://cmo.hu/bankkartya-terminalok/pax-s800-bankkartya-olvaso) a megrendelőt
 + Kollegáink felveszik veled a kapcsolatot, és bekérik a szükséges iratokat, és elkészítik a szerződést
 + Elektronikus úton kiküldjük a szerződést
 + ...
@@ -40,5 +40,18 @@
 |POS terminál asztali (szezonális min.3 hó-max.6 hó) | 4.990 Ft + ÁFA | 0.99 % | 0,49 - 1,7 % magyar bankkártya esetén |
 |POS terminál mobil (szezonális min.3 hó-max.6 hó) | 5.490 Ft + ÁFA | 0.99 % | 0,49 - 1,7 % magyar bankkártya esetén |
 
+## Pénztárgép szükséges-e a terminálhoz?
+Nem, a terminál üzemeltetése független a pénztárgéptől, használható  pl. számlázó program mellé elektronikus fizetési mód biztosítására is. 
 
+## Szükség van-e internet kapcsolatra a terminálok működéséhez?
+A PAX S800-as készülék működéséhez vezetékes internet kapcsolat biztosítása szükséges, az S920 -as terminál SIM kártyával van ellátva, mobil adatkommunikációval működik.
+
+## Hogy működik a szervíz szolgáltatás?
+A szerviz a szükséges javítást munkanapokon 24 órán belül, hétvégén és munkaszüneti napokon 72 órán belül elvégzi. A javítás az Előfizető igénye alapján történhet a CMO partner szervizében vagy az Előfizető telephelyén, ebben az esetben a kiszállási díj az Előfizetőt terheli.
+
+## Alkalmasak-e a terminálok a borravaló külön kezelésére?
+Minkét ajánlott eszközünk alkalmas a borravaló kezelésére. Az eredeti végösszeg teljesítését követően, a feltett kérdésre ( Borravaló/Tip) válaszolva tetszőleges összeget adhat meg a vendég borravalóként, amely a kiadott bizonylaton külön soron kerül feltüntetésre.
+
+## Van-e lehetőség személyes ügyintézés keretén belül megrendelni a terminálokat?
+Igen. Partnerünkön keresztűl.
 

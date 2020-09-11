@@ -24,6 +24,10 @@
     text-align: center;
 }
 
+.img-float-left h3 {
+    color: #b700ff;
+}
+
 p {
     text-align: justify;
 }
