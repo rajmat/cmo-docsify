@@ -34,7 +34,7 @@
  + Kérem jelölje meg milyen számlázási periódust választ? (havi, negyedéves, féléves)
 
 ## Mennyibe kerül a terminál üzemeltetése?
-|  | Havidíj | Tranzakciós dí | Bankközi jutalék |
+|  | Havidíj | Tranzakciós díj | Bankközi jutalék |
 | --- | --- | --- | --- |
 |POS terminál asztali(36 hónap határozott idejű szerződés) | 2.490 Ft + ÁFA | 0.99 % | 0,49 - 1,7 % magyar bankkártya esetén |
 |POS terminál mobil (36 hónap határozott idejű szerződés) | 2.990 Ft + ÁFA | 0.99 % | 0,49 - 1,7 % magyar bankkártya esetén |

@@ -7,6 +7,17 @@
   margin-right: 50px;
 }
 
+#main > p > img {
+  max-width: 500px;
+}
+
+.kezdolap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .app-nav > ul > li > p > a {
   color: white;
 }
