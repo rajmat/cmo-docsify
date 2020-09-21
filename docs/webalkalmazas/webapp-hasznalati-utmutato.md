@@ -6,7 +6,7 @@
 
 > A CMO - Company webalkalmazás a [https://app.cmo.hu/](https://app.cmo.hu/) oldalon érhető el!
 
-![CMO - Company felhasználó regisztrálása](..\_media\webapp\felhasznalo-reg\1.png)
+![CMO - Company felhasználó regisztrálása](../_media/webapp/felhasznalo-reg/1.png)
 A bejelentkező oldalon kattints a "Regisztráció" gombra.
 
 ![CMO - Company felhasználó regisztrálása](..\_media\webapp\felhasznalo-reg\2.png)
@@ -20,7 +20,7 @@ Amenyibben nem találod a beérkezett üzenetek mappában, kérlek ellenőrizd a
 Utolsó lépésként jelentkezz be a webappba. Egy felugró ablakban meg kell adnod az e-mail címedre érkezett kódot, hogy a regisztráció befejezödjön.
 
 ### Cég regisztrálása
-![CMO - Company cég létrehozása](..\_media\webapp\ceg-reg\5.png)
+![CMO - Company cég létrehozása](../_media/webapp/ceg-reg/5.png)
 Válaszd ki az országot.
 
 ![CMO - Company cég létrehozása](..\_media\webapp\ceg-reg\6.png)
