@@ -8,7 +8,7 @@ A számlázó program bejelentés történhet elektronikus úton (ÁNYK), illetv
 Az általunk fejlesztett számlázó program bejelentéshez szükséges adatok.
 
 |  |  |
-| --- | --- |
+| ------------- | -------------- |
 | Alkalmazás azonosító: | CMO-06840000000000 | 
 | Számlázó alkalmazás neve: | CMO | 
 | Fejlesztő neve: | CMO24 Zrt. | 

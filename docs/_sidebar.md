@@ -1,14 +1,13 @@
 * [Kezdőlap](/)
-* [Általános információk](informaciok.md)
+<!--* [Általános információk](informaciok.md)-->
 
 <span class="sidebar-nav-text">MOBILAPPLIKÁCIÓ</span>
-* [Funkciólista](mobilapplikacio/mobilapp-funkciolista.md)
+<!--* [Funkciólista](mobilapplikacio/mobilapp-funkciolista.md)-->
 * [Használati útmutató](mobilapplikacio/mobilapp-hasznalati-utmutato.md)
 * [Gyakran ismételt kérdések](mobilapplikacio/mobilapp-gyik.md)
 
 <span class="sidebar-nav-text">WEBALKALMAZÁS</span>
 * [Gyakran ismételt kérdések](webalkalmazas/webapp-gyik.md)
-* [Funkciólista](webalkalmazas/webapp-funkciolista.md)
 * [Használati útmutató](webalkalmazas/webapp-hasznalati-utmutato.md)
 
 <span class="sidebar-nav-text">BANKKÁRTYA TERMINÁL</span>
