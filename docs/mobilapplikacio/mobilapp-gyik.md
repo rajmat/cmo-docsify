@@ -1,7 +1,5 @@
 # Gyakran ismételt kérdések
 
-<div class="img-float-left">
-
 ## Be kell jelenteni a számlázót a NAV-nál?
 
 !> Minden cég / E.V. köteles a NAV felé bejelenteni az általa használt online számlázó programot!
@@ -47,5 +45,3 @@ Párosító kód: 0000
 
 ![Bixolon](../_media/mobilapp/szamlanyomtato/bixolon-spp-r310-szamlanyomtato.png)
 Párosító kód: 0000
-
-</div>

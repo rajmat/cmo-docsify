@@ -1,6 +1,5 @@
 # Gyakran ismételt kérdések
 
-<div class="img-float-left">
 
 ## Be kell jelenteni a számlázót a NAV-nál?
 !> Minden cég / E.V. köteles a NAV felé bejelenteni az általa használt online számlázó programot! 
@@ -19,4 +18,3 @@ Az általunk fejlesztett számlázó program bejelentéshez szükséges adatok.
 
 
 
-</div>

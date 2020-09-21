@@ -18,6 +18,12 @@
     align-items: center;
 }
 
+.kezdolap img {
+    width: 200px;
+    /*    border-style: none; */
+    border-color: #ff0707;
+}
+
 .app-nav>ul>li>p>a {
     color: white;
 }
@@ -35,11 +41,11 @@
     text-align: center;
 }
 
-.img-float-left h2 {
+.markdown-section h2 {
     color: #07ffd6;
 }
 
-.img-float-left h3 {
+.markdown-section h3 {
     color: #b700ff;
 }
 
@@ -54,18 +60,18 @@ p {
     clear: both;
 }
 
-.img-float-left img {
+.markdown-section img {
     float: left;
     width: 180px;
     margin-top: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
     border-style: solid;
-    border-color: #b700ff;
+    border-color: #5107ff;
     border-width: 1px;
 }
 
-.img-float-left table {
+.markdown-section table {
     width: 100%;
 }
 

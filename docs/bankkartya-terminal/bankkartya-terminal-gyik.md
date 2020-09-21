@@ -1,6 +1,4 @@
 # Gyakran ismételt kérdések
-<div class="img-float-left">
-
 
 ## Mi a megrendelés menete?
 + Töltsd ki a [CMO - Weboldalán](https://cmo.hu/bankkartya-terminalok/pax-s800-bankkartya-olvaso) a megrendelőt
@@ -65,5 +63,3 @@ Minkét ajánlott eszközünk alkalmas a borravaló kezelésére. Az eredeti vé
 
 ## Van-e lehetőség személyes ügyintézés keretén belül megrendelni a terminálokat?
 Igen. Partnerünkön keresztűl.
-
-</div>

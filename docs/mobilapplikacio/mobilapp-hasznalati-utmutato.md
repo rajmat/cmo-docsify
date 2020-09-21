@@ -1,7 +1,5 @@
 # Használati útmutató
 
-<div class="img-float-left">
-
 ## Telepítés
 A számlázó mobilapplikáció elérgető Android és iOS operációs rendszert futtató eszközökre is.
 Amennyiben telefonról böngészed az oldalt, csak kattints az operációs rendszerednek megfelelő linkre, és odanavigálunk az appunkhoz az áruházban.
@@ -59,4 +57,3 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
  + Készletek
 
 
-</div>

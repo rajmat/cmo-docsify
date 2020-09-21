@@ -1,6 +1,4 @@
 # Használati útmutató
-<div class="img-float-left">
-
 
 ## Regisztráció
 
@@ -39,5 +37,3 @@ A következő oldal fog fogadni.
 
 ![CMO - Company cég létrehozása](../_media/webapp/ceg-reg/10.png)
 Ahhoz, hogy a számlázást is meg tudd kezdeni, szükséges a NAV technikai felhasználó beállítása. Ezt a [NAV Online Számla Rendszerében](https://onlineszamla.nav.gov.hu/home) tudod beállítani, és lekérdezni.
-
-</div>

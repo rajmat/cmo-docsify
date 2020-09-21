@@ -1,7 +1,5 @@
 # Gyakran ismételt kérdések
 
-<div class="img-float-left">
-
 ## Hogyan tudom megrendelni a pénztárgépet?
 !> Az online pénztárgép CMO felhővel hamarosan elérhető! (~ 2020.10.05) 
 
@@ -27,5 +25,3 @@ Nincs más dolgod, csak vedd fel a kapcsolatot egy [CMO - Partnerrel](https://cm
 |Pénztárgép bérlés 2 éves hűség szerződéssel | 30.000 Ft | 4.990 Ft + ÁFA / hó | 1.500 Ft + Áfa / hó |
 |Pénztárgép bérlés 1 éves hűség szerződéssel | 50.000 Ft | 8.990 Ft + ÁFA / hó | 1.500 Ft + Áfa / hó |
 |Pénztárgép szezonális bérlet | 60.000 Ft | 11.990 Ft + ÁFA / hó | 1.500 Ft + Áfa / hó |
-
-</div>
