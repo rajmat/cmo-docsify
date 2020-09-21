@@ -54,6 +54,10 @@ p {
     border-width: 1px;
 }
 
+.img-float-left table {
+  width:100%;
+}
+
 .sidebar-nav-text {
     color: #b700ff;
     font-size: 16px;
