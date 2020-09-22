@@ -6,7 +6,7 @@
 
 > A CMO - Company webalkalmazás a [https://app.cmo.hu/](https://app.cmo.hu/) oldalon érhető el!
 
-![CMO - Company felhasználó regisztrálása](../_media/webapp/felhasznalo-reg/1.PNG)
+![CMO - Company felhasználó regisztrálása](../_media/webapp/felhasznalo-reg/1.png)
 A bejelentkező oldalon kattints a "Regisztráció" gombra.
 
 ![CMO - Company felhasználó regisztrálása](../_media/webapp/felhasznalo-reg/2.png)
