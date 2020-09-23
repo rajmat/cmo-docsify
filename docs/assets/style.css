@@ -62,9 +62,9 @@ p {
 
 .markdown-section img {
     float: left;
-    width: 160px;
+    width: 250px;
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 10px;
     border-style: solid;
     border-color: #5107ff;

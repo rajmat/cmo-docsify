@@ -15,22 +15,22 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 
 ### Az app első indítása
 
+![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/onboarding.png)
+
+
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/0.png)
-Válaszd ki az applikáció nyelvét.
-
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/1.png)
-Ha még nincs CMO felhasználói fiókod hozd létre egyszerűen.
-
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/2.png)
-Add meg a felhaszálói fiók létrehozásához szükséges alapadatokat, fogadd el az adatkezelési, és szerződési feltételeket.
-
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/3.png)
-
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/4.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/5.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/6.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/7.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/8.png)
+
++ Válaszd ki az applikáció nyelvét.
++ Ha még nincs CMO felhasználói fiókod hozd létre egyszerűen.
++ Add meg a felhaszálói fiók létrehozásához szükséges alapadatokat, fogadd el az adatkezelési, és szerződési feltételeket.
 
 ### Felhasználó regisztrálása
 
