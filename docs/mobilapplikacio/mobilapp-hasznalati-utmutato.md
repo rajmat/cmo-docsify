@@ -18,7 +18,6 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 
 <div class="app-elso-inditasa-kepek">
 
-![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/onboarding.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/0.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/1.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/2.png)

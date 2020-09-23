@@ -1,154 +1,150 @@
-#main > div > p {
-  float: left !important;
+#main>div>p {
+    float: left !important;
 }
 
-#main > p > a > img {
-  width: 300px;
-  margin-right: 50px;
+#main>p>a>img {
+    width: 300px;
+    margin-right: 50px;
 }
 
-#main > p > img {
-  max-width: 500px;
+#main>p>img {
+    max-width: 500px;
 }
 
 .kezdolap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .kezdolap p img {
-  border: 0px;
-  width: 400px;
-  margin: 0 auto;
+    border: 0px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .kezdolap p .subtitle {
-  font-size: 36pt;
-  text-align: center;
+    font-size: 36pt;
+    text-align: center;
 }
 
-.app-nav > ul > li > p > a {
-  color: white;
+.app-nav>ul>li>p>a {
+    color: white;
 }
 
-#töltsd-le-a-cmo-számlázóját-ingyenesen > a {
-  color: purple;
-  background-color: aliceblue;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
+#töltsd-le-a-cmo-számlázóját-ingyenesen>a {
+    color: purple;
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
-#töltsd-le-a-cmo-számlázóját-ingyenesen > a > span {
-  text-align: center;
+#töltsd-le-a-cmo-számlázóját-ingyenesen>a>span {
+    text-align: center;
 }
 
 .markdown-section h2 {
-  color: #07ffd6;
+    color: #07ffd6;
 }
 
 .markdown-section h3 {
-  color: #b700ff;
+    color: #b700ff;
 }
 
 p {
-  text-align: justify;
+    text-align: justify;
 }
 
 .markdown-section h1,
 h2,
 h3,
 p {
-  clear: both;
+    clear: both;
 }
 
 .markdown-section img {
-  float: left;
-  width: 300px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  border-style: solid;
-  border-color: #5107ff;
-  border-width: 1px;
+    float: left;
+    width: 135px;
+    max-height: 288px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #5107ff;
+    border-width: 1px;
 }
 
 .markdown-section table {
-  width: 100%;
+    width: 100%;
 }
 
 .sidebar-nav-text {
-  color: #b700ff;
-  font-size: 16px;
+    color: #b700ff;
+    font-size: 16px;
 }
 
 .video-container {
-  position: relative;
-  height: 22em;
-  width: -webkit-fill-available;
-  overflow: hidden;
+    position: relative;
+    height: 22em;
+    width: -webkit-fill-available;
+    overflow: hidden;
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width: 1023px) {
-  .kezdolap p img {
-    border: 0px;
-    width: 300px;
-    margin: 0 auto;
-  }
-
-  .kezdolap p .subtitle {
-    font-size: 20pt;
-    text-align: center;
-  }
-
-  .app-elso-inditasa-kepek p,
-  .felhasznalo-regisztralasa p,
-  .ceg-regisztralasa p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .app-elso-inditasa-kepek p img,
-  .felhasznalo-regisztralasa p img,
-  .ceg-regisztralasa p img {
-    width: 50%;
-  }
-
-  .felhasznaló-letrehozasa p {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .felhasznaló-letrehozasa p img {
-    width: 100%;
-    margin: 0 auto 30px;
-  }
+    .kezdolap p img {
+        border: 0px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .kezdolap p .subtitle {
+        font-size: 20pt;
+        text-align: center;
+    }
+    .app-elso-inditasa-kepek p,
+    .felhasznalo-regisztralasa p,
+    .ceg-regisztralasa p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .app-elso-inditasa-kepek p img,
+    .felhasznalo-regisztralasa p img,
+    .ceg-regisztralasa p img {
+        width: 50%;
+    }
+    .felhasznaló-letrehozasa p {
+        display: flex;
+        flex-direction: column;
+    }
+    .felhasznaló-letrehozasa p img {
+        width: 100%;
+        margin: 0 auto 30px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-  .app-elso-inditasa-kepek p img,
-  .felhasznalo-regisztralasa p img,
-  .ceg-regisztralasa p img {
-    width: 100%;
-  }
+    .app-elso-inditasa-kepek p img,
+    .felhasznalo-regisztralasa p img,
+    .ceg-regisztralasa p img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
-.markdown-section {
-  padding: 70px 10px;
-}
+    .markdown-section {
+        padding: 70px 10px;
+    }
 }
