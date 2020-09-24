@@ -16,7 +16,7 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 
 ### Az app első indítása
 
-### Friss
+### Friss 2
 
 <div class="images-list">
 
