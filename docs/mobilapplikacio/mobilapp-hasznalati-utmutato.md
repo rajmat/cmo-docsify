@@ -16,8 +16,6 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 
 ### Az app első indítása
 
-### Friss 5
-
 <div class="images-list">
 
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/0.png)
@@ -32,9 +30,18 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 
 </div>
 
-- Válaszd ki az applikáció nyelvét.
-- Ha még nincs CMO felhasználói fiókod hozd létre egyszerűen.
-- Add meg a felhaszálói fiók létrehozásához szükséges alapadatokat, fogadd el az adatkezelési, és szerződési feltételeket.
+Az alábbi képernyő képeket csak új telepítés esetén látod. A beállítások későbbi módosítására mindig adunk lehetőséget!
+
++ Válaszd ki, hogy milyen nyelven szeretnéd használni az alkalmazást (magyar, angol).
++ Menj tovább a fiók létrehozására. Rendelkezel már regisztrációval? Akkor egyszerűen csak jelentkezz be az alkalmazásba.
++ Hozd létre a fiókodat, és fogadd el a felhasználási feltételeket.
++ Vállalkozásod regisztrálásához add meg az adószámod, és mi lekérjük az adatokat egy külső adatbázisból. De az adatok megadása történhet manuálisan is, ha erre lenne szükséged.
++ Regisztráld a céged az alapadatok megadásával.
++ Töltsd fel vállalkozásod logóját, hogy ez a későbbiekben megjelenjen a számlaképen. EZ A LÉPÉS KI IS HAGYHATÓ!
++ Könyvelő e-mail címének megadása, ha szeretnéd, hogy a könyvelőd megkapja az általad kiállított számlákat. EZ A LÉPÉS KI IS HAGYHATÓ!
++ A technikai felhasználó beállításánál lehetőséged van a NAV által generált QR kód beolvasására, hogy ne kelljen az adatokat kézzel beírni, csak a jelszót. EZ A LÉPÉS KI IS HAGYHATÓ, de ebben az esetben nem tudsz majd számlát kiállítani! Természetesen ezt a beállítást később elvégezheted.
++ A gyakran használt cikket, ha beállítod, még gyorsabban számlázhatsz, nem kell keresgéléssel bajlódnod. EZ A LÉPÉS KI IS HAGYHATÓ!
+
 
 ### Felhasználó regisztrálása
 
