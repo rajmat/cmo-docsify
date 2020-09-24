@@ -120,14 +120,14 @@ p {
     .images-list p img {
         width: 50%;
     }
-    .images-list p {
+    /*    .images-list p {
         display: flex;
         flex-direction: column;
     }
     .images-listimages-list p img {
         width: 100%;
         margin: 0 auto 30px;
-    }
+    }*/
 }
 
 @media screen and (max-width: 767px) {
