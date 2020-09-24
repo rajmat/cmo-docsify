@@ -68,7 +68,6 @@ p {
 .markdown-section img {
     float: left;
     width: 135px;
-    max-height: 288px;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -113,23 +112,19 @@ p {
         font-size: 20pt;
         text-align: center;
     }
-    .app-elso-inditasa-kepek p,
-    .felhasznalo-regisztralasa p,
-    .ceg-regisztralasa p {
+    .images-list p {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .app-elso-inditasa-kepek p img,
-    .felhasznalo-regisztralasa p img,
-    .ceg-regisztralasa p img {
+    .images-list p img {
         width: 50%;
     }
-    .felhasznaló-letrehozasa p {
+    .images-list p {
         display: flex;
         flex-direction: column;
     }
-    .felhasznaló-letrehozasa p img {
+    .images-listimages-list p img {
         width: 100%;
         margin: 0 auto 30px;
     }
