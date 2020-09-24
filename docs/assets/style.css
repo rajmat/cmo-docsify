@@ -118,7 +118,7 @@ p {
         justify-content: center;
     }
     .images-list p img {
-        width: 50%;
+        width: 100%;
     }
     /*    .images-list p {
         display: flex;
