@@ -118,7 +118,7 @@ p {
         justify-content: center;
     }
     .images-list p img {
-        width: 40%;
+        width: 24%;
     }
     /*    .images-list p {
         display: flex;
@@ -132,7 +132,7 @@ p {
 
 @media screen and (max-width: 767px) {
     .images-list p img {
-        width: 40%;
+        width: 24%;
     }
 }
 
