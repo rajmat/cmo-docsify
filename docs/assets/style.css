@@ -118,7 +118,7 @@ p {
         justify-content: center;
     }
     .images-list p img {
-        width: 100%;
+        width: 40%;
     }
     /*    .images-list p {
         display: flex;
@@ -131,10 +131,8 @@ p {
 }
 
 @media screen and (max-width: 767px) {
-    .app-elso-inditasa-kepek p img,
-    .felhasznalo-regisztralasa p img,
-    .ceg-regisztralasa p img {
-        width: 100%;
+    .images-list p img {
+        width: 40%;
     }
 }
 
