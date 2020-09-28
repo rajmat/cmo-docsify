@@ -45,3 +45,7 @@ Párosító kód: 0000
 
 ![Bixolon](../_media/mobilapp/szamlanyomtato/bixolon-spp-r310-szamlanyomtato.png)
 Párosító kód: 0000
+
+## Felhasználó rögzítése (Meghívó)
+### Rendelkezik CMO fiókkal
+### Nincs CMO fiókja
