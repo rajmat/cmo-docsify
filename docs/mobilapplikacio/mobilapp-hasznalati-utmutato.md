@@ -69,41 +69,41 @@ Az alábbi képernyő képeket csak új telepítés esetén látod. A beállít�
 
 ## Menütérkép
 
-- Beállítások
-- Cég szerkesztése
-- Általános adatok
-- Törzsadatok
-- ÁFA kulcsok
-- Mértékegységek
-- Bolt hozzáadása
-- Bankügyi adatok
-- NAV technikai felhasználó
-- Cégeim
-- Cég hozzáadása
-- Profilom
-- Nyomtatók
-- Számlázás beállítások
-- Alapértelmezett cikk
-- Alapértelmezett cikk törlése / kiválasztása
-- Alapértelmezett fizetési mód
-- Partner automatikus mentése számlakiállításakor
-- Nyelv
-- Téma
-- Felhasználók kezelése
-- Alkalmazás adatai
-- Adatkezelési tájékoztató
-- Szerződési feltételek
-- Kijelentkezés
-- Új számla kiállítása
-- Számláim
-- Új számla kiállítása
-- Partnerek
-- Új partner hozzáadása
-- Partner múdosítása
-- Cikktörzs
-- Új cikk hozzáadása
-- Cikk módosítása
-- Boltjaid
-- Üzlet címe
-- Pénztárgépek
-- Készletek
++ Beállítások
+ + Cég szerkesztése
+  + Általános adatok
+  + Törzsadatok
+  + ÁFA kulcsok
+  + Mértékegységek
+  + Bolt hozzáadása
+  + Bankügyi adatok
+  + NAV technikai felhasználó
+ + Cégeim
+  + Cég hozzáadása
+ + Profilom
+ + Nyomtatók
+ + Számlázás beállítások
+  + Alapértelmezett cikk
+  + Alapértelmezett cikk törlése / kiválasztása
+  + Alapértelmezett fizetési mód
+  + Partner automatikus mentése számlakiállításakor
+ + Nyelv
+ + Téma
+ + Felhasználók kezelése
+ + Alkalmazás adatai
+ + Adatkezelési tájékoztató
+ + Szerződési feltételek
+ + Kijelentkezés
++ Új számla kiállítása
++ Számláim
+ + Új számla kiállítása
++ Partnerek
+ + Új partner hozzáadása
+ + Partner múdosítása
++ Cikktörzs
+ + Új cikk hozzáadása
+ + Cikk módosítása
++ Boltjaid
+ + Üzlet címe
+ + Pénztárgépek
+ + Készletek
