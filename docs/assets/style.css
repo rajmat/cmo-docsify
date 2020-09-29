@@ -67,7 +67,8 @@ p {
 
 .markdown-section img {
     float: left;
-    width: 23%;
+    /*   width: 23%; */
+    height: 150px;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
