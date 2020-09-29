@@ -16,8 +16,6 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 
 ### Az app első indítása
 
-## TESZT 1
-
 <div class="images-list">
 
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/0.png)
