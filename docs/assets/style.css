@@ -119,16 +119,19 @@ p {
         flex-direction: column;
         justify-content: center;
     }*/
-    .images-list p img {
+    /*    .images-list p img {
         width: 30%;
-    }
+    }*/
 }
 
+
+/*
 @media screen and (max-width: 767px) {
     .images-list p img {
         width: 30%;
     }
 }
+*/
 
 @media screen and (max-width: 500px) {
     .markdown-section {
