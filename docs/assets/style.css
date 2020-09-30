@@ -54,6 +54,12 @@
     color: #b700ff;
 }
 
+.markdown-section h4 {
+    border-bottom-style: solid;
+    border-bottom-color: #b700ff;
+    border-bottom-width: 1px;
+}
+
 p {
     text-align: justify;
 }
@@ -61,6 +67,7 @@ p {
 .markdown-section h1,
 h2,
 h3,
+h4,
 p {
     clear: both;
 }

@@ -49,3 +49,77 @@ Párosító kód: 0000
 ## Felhasználó rögzítése (Meghívó)
 ### Rendelkezik CMO fiókkal
 ### Nincs CMO fiókja
+
+## Verziók
+
+### Android
+
+#### 1.4.4 2020. szeptember 24.
+- Mobil nyomtató hibajavítások
+
+#### 1.4.3 2020. szeptember 23.
+- Hibajavítások
+
+#### 1.4.2 2020. szeptember 21.
+- Hibajavítások
+- Netum nyomtató ékezetes karakterek támogatása
+
+#### 1.4.0 2020. szeptember 15.
+- Hibajavítások
+- Világos téma elérhető a beállítások között!
+- Boltok, és azok készleteinek megtekintése elérhető!
+
+#### 1.3.1 2020. szeptember 7.
+- Hibajavítások
+- NAV technikai felhasználó beolvasása QR kódból!
+
+#### 1.3.0 2020. augusztus 26.
+- Hibajavítások
+- Angol megjelenés!
+- Több nyelv támogatása megnevezések és leírások megadásakor!
+- Megnevezések, leírások automatikus fordítása!
+- Fordított adózás támogatása!
+
+#### 1.2.0 2020. július 28.
+- Általános hibajavítások
+- Számla előnézet
+- Több felhasználó egy cégen belül
+- Epson TM-P80 nyomtató támogatása
+
+#### 1.1.4 2020. július 24.
+- Hibajavítások
+- Polpos MP 80 hordozható nyomtató támogatás!
+
+#### 1.1.3 2020. július 21.
+- Hibajavítások
+
+#### 1.1.2 2020. július 19.
+- Hibajavítások
+
+#### 1.1.0 2020. július 14.
+- Általános hibajavítások
+- Számla tétel megjegyzések
+- Számlák szűrése teljesítés ideje szerint
+- Számlák nyomtatása!
+ - Bixolon SPP-R310
+ - NETUM NT-1809DD
+
+#### 1.0.7 2020. július 4.
+- Általános hibajavítások
+- Egyéni vállalkozói adatok kezelése
+
+#### 1.0.6 2020. június 27.
+- Általános hibajavítások
+- Több cég kezelése egy felhasználói fiókkal!
+- NAV adatszolgáltatás állapota
+
+#### 1.0.5 2020. június 22.
+- Számlázás technikai felhasználó nélkül!
+  2020. június 30-ig az alkalmazás enged kiállítani számlát adóalanyoknak NAV technikai felhasználó nélkül, ha a számla adótartalma nem haladja meg a 100 000 forintot.
+  2020. december 1-ig az alkalmazás enged kiállítani számlát nem ÁFA-alanyoknak technikai felhasználó nélkül.
+
+#### 1.0.4 2020. június 19.
+- Általános hibajavítások
+- Telepítő folyamatba bekerült a cég logójának feltöltése, hogy később megjelenhessen a logód a számlaképeken!
+
+#### 1.0.2.29 2020. június 16.

@@ -16,10 +16,6 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 
 ### Az app első indítása
 
-## TESZT 1
-
-<div class="images-list">
-
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/0.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/1.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/2.png)
@@ -29,8 +25,6 @@ Amennyiben asztali számítógepen böngészed az oldat, csak keress rá a mobil
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/6.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/7.png)
 ![CMO - Számlázó első indítása](../_media/mobilapp/onboarding/8.png)
-
-</div>
 
 Az alábbi képernyő képeket csak új telepítés esetén látod. A beállítások későbbi módosítására mindig adunk lehetőséget!
 
@@ -47,23 +41,16 @@ Az alábbi képernyő képeket csak új telepítés esetén látod. A beállít�
 
 ### Felhasználó regisztrálása
 
-<div class="images-list">
-
 ![CMO - Számlázó felhasználó regisztrálása](../_media/mobilapp/felhasznalo-reg/1.jpg)
 ![CMO - Számlázó felhasználó regisztrálása](../_media/mobilapp/felhasznalo-reg/2.jpg)
 ![CMO - Számlázó felhasználó regisztrálása](../_media/mobilapp/felhasznalo-reg/3.jpg)
 
-</div>
-
 ### Cég regisztrálása
-
-<div class="images-list">
 
 ![CMO - Számlázó cég regisztrálása](../_media/mobilapp/ceg-reg/1.jpg)
 ![CMO - Számlázó cég regisztrálása](../_media/mobilapp/ceg-reg/3.jpg)
 ![CMO - Számlázó cég regisztrálása](../_media/mobilapp/ceg-reg/4.jpg)
 
-</div>
 
 !> Számlát addig nem tudsz kiállítani, míg a NAV technikai felhasználó nincs beállítva!
 
