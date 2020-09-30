@@ -123,3 +123,21 @@ Párosító kód: 0000
 - Telepítő folyamatba bekerült a cég logójának feltöltése, hogy később megjelenhessen a logód a számlaképeken!
 
 #### 1.0.2.29 2020. június 16.
+
+### Apple
+
+#### 1.4.4 2020. szeptember 24.
+- Mobil nyomtató hibajavítások
+
+#### 1.4.3 2020. szeptember 23.
+- Hibajavítások
+
+#### 1.4.2 2020. szeptember 21.
+- Hibajavítások
+
+#### 1.4.1 
+- Hibajavítások
+
+#### 1.1.4 2020. július 24.
+- Hibajavítások
+- Netum nyomtató integrálása
