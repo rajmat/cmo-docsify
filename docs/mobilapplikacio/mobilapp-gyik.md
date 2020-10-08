@@ -54,6 +54,10 @@ Párosító kód: 0000
 
 ### Android
 
+#### 1.5.1 2020. oktober 6.
+- Polpos és Bixolon mobil nyomtató javítások
+- Számlatömbök kezelése!
+
 #### 1.4.4 2020. szeptember 24.
 - Mobil nyomtató hibajavítások
 
@@ -125,6 +129,9 @@ Párosító kód: 0000
 #### 1.0.2.29 2020. június 16.
 
 ### Apple
+
+#### 1.5.0 2020. oktober 6.
+- Számlatömbök kezelése!
 
 #### 1.4.4 2020. szeptember 24.
 - Mobil nyomtató hibajavítások
