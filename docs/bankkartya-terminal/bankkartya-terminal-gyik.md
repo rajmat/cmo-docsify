@@ -2,22 +2,25 @@
 
 ## Mi a megrendelés menete?
 + Töltsd ki a [CMO - Weboldalán](https://cmo.hu/bankkartya-terminalok/pax-s800-bankkartya-olvaso) a megrendelőt
-+ Kollegáink felveszik veled a kapcsolatot, és bekérik a szükséges iratokat, és elkészítik a szerződést
-+ Elektronikus úton kiküldjük a szerződést
-+ ...
++ Kollegáink felveszik veled a kapcsolatot, bekérik a szükséges iratokat, és elkészítik a szerződést
++ Elektronikus úton kiküldjük a szerződéseket és az ajánlati lapot
++ Az aláírt szerződést és ajánlati lapot vissza kell küldened
++ Kollégánk jelentkezni fog a terminál üzembehelyezésével kapcsolatosan
 
 ## Milyen dokumentumok szükségessek a megrendeléshez?
 + Egyéni vállalkozó esetén:
  + Személyigazolvány (mindkét oldal)
  + Lakcímkártya (csak lakcím oldal) 
- + Bankszámla szerződés vagy bankszámla kivonat amely tartalmazza az IBAN számot (nincs technikai bankszámlaszám, az Ön meglévő bankszámláján kerül jóváírásra a terminálon kiegyenlített összeg) 
+ + Bankszámla szerződés vagy bankszámla kivonat amely tartalmazza a számlatulajdonos adatait és az IBAN számot (nincs technikai bankszámlaszám, a meglévő bankszámládon kerül jóváírásra a terminálon kiegyenlített összeg) 
 
 + Cég esetén:
  + Képviseletre jogosult személyigazolványa (mindkét oldal) 
- + Képviseletre jogosult lakcímkártyája (csak lakcím oldal) 
- + Bankszámla szerződés vagy bankszámla kivonat amely tartalmazza az IBAN számot (nincs technikai bankszámlaszám, az Ön meglévő bankszámláján kerül jóváírásra a terminálon kiegyenlített összeg) 
+ + Képviseletre jogosult lakcímkártyája (csak lakcím oldal)
+ + Amennyiben a képviseletre jogosult és a tulajdonos nem ugyanaz a személy, akkor a tulajdonos okmányai (személyi igazolvány mindkét oldala, lakcím kártya lakcím oldala)
+ + Bankszámla szerződés vagy bankszámla kivonat amely tartalmazza a számlatulajdonost és az IBAN számot (nincs technikai bankszámlaszám, az Ön meglévő bankszámláján kerül jóváírásra a terminálon kiegyenlített összeg) 
  + Aláírási címpéldány 
- + Társasági szerződés alábbi fejezetei: 
+ + Társasági szerződés alábbi fejezetei:
+  + Társaság tagjai,
   + Társaság törzstőkéje, 
   + Egyes tagok törzsbetétje, 
   + Üzletrész  
@@ -28,6 +31,7 @@
  + Az Üzlet címe
  + Technikai email cím, a napi összesítők kiküldésére
  + Postai levelezési cím
+ + Milyen tevékenységi körhöz igényli a terminált?
  + A tényleges tulajdonos politikailag kitett személynek minősül-e? 
  + Kérem jelölje meg milyen számlázási periódust választ? (havi, negyedéves, féléves)
 
@@ -62,4 +66,7 @@ A szerviz a szükséges javítást munkanapokon 24 órán belül, hétvégén é
 Minkét ajánlott eszközünk alkalmas a borravaló kezelésére. Az eredeti végösszeg teljesítését követően, a feltett kérdésre ( Borravaló/Tip) válaszolva tetszőleges összeget adhat meg a vendég borravalóként, amely a kiadott bizonylaton külön soron kerül feltüntetésre.
 
 ## Van-e lehetőség személyes ügyintézés keretén belül megrendelni a terminálokat?
-Igen. Partnerünkön keresztűl.
+Igen. Partnereinken keresztül. [CMO - Partnereink](https://cmo.hu/partnereink)
+
+## SZÉP kártyát kezelnek-e a terminálok?
+A PAX terminálok SZÉP kártyát nem kezelnek, de iratkozz fel hírlevelünkre, hogy időben értesülj a szolgáltatásaink bővüléséről.
