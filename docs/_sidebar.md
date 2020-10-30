@@ -6,6 +6,10 @@
 * [Használati útmutató](mobilapplikacio/mobilapp-hasznalati-utmutato.md)
 * [Gyakran ismételt kérdések](mobilapplikacio/mobilapp-gyik.md)
 
+<span class="sidebar-nav-text">AFR</span>
+* [Gyakran ismételt kérdések](afr/afr-gyik.md)
+* [Használati útmutató](afr/afr-hasznalati-utmutato.md)
+
 <span class="sidebar-nav-text">WEBALKALMAZÁS</span>
 * [Gyakran ismételt kérdések](webalkalmazas/webapp-gyik.md)
 * [Használati útmutató](webalkalmazas/webapp-hasznalati-utmutato.md)
