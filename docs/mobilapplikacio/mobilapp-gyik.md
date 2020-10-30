@@ -50,6 +50,7 @@ Párosító kód: 0000
 ### Rendelkezik CMO fiókkal
 ### Nincs CMO fiókja
 
+<!--
 ## Verziók
 
 ### Android
@@ -148,3 +149,4 @@ Párosító kód: 0000
 #### 1.1.4 2020. július 24.
 - Hibajavítások
 - Netum nyomtató integrálása
+-->

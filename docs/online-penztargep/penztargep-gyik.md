@@ -1,7 +1,6 @@
 # Gyakran ismételt kérdések
 
 ## Hogyan tudom megrendelni a pénztárgépet?
-!> Az online pénztárgép CMO felhővel hamarosan elérhető! (~ 2020.10.05) 
 
 Nincs más dolgod, csak vedd fel a kapcsolatot egy [CMO - Partnerrel](https://cmo.hu/partnereink) aki a legközelebb található a vállalkozásodhoz.
 
